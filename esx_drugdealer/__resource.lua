@@ -11,11 +11,6 @@ server_scripts {
 	'locales/es.lua',
 	'config.lua',
 	'server/main.lua',
-	'server/coke.lua',
-	'server/weed.lua',
-	'server/heroin.lua',
-	'server/lisenceshop.lua',
-	'server/moneywash.lua',
 }
 
 client_scripts {
@@ -24,15 +19,9 @@ client_scripts {
 	'locales/es.lua',
 	'config.lua',
 	'client/main.lua',
-	'client/weed.lua',
-	'client/coke.lua',
-	'client/heroin.lua',
-	'client/lisenceshop.lua',
-	'client/moneywash.lua',
 }
 
 dependencies {
 	'es_extended',
         'esx_drugs'
-
 }
